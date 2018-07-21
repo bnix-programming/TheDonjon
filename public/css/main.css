@@ -65,12 +65,12 @@ h2
 {
   margin-top: 10px;
   font-size: 20px;
-  color: #00ff40;
+  color: #00ff00;
 }
 .shell-in
 {
   margin-top: 10px;
-  color: #00ff40;
+  color: #00ff00;
   position: relative;
   height: 30px;
   font-size: 16px;
@@ -78,7 +78,7 @@ h2
 .shell-in input[type=text]
 {
   background: transparent;
-  color: #00ff40;
+  color: #00ff00;
   border: none;
   resize: none;
   outline: none;

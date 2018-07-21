@@ -1,0 +1,139 @@
+body
+{
+  background-color:black;
+  padding: 0;
+  margin: 0;
+  font-family:"Lucida Console", Monaco, monospace;
+}
+.content main
+{
+  background-color: #1e1e1e;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h1, h2, h3, p
+{
+  text-align:center;
+  color:white;
+}
+h1
+{
+  letter-spacing: 5px;
+}
+
+h2
+{
+  letter-spacing: 3px;
+}
+
+.shell
+{
+  width: 500px;
+  position: relative;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: width 1500ms ease-in-out;
+}
+
+@media screen and (max-width: 950px)
+{
+  .shell
+  {
+    width: 80%;
+  }
+  .shell-wider
+  {
+    width: 100% !important;
+  }
+}
+
+
+.shell-wider
+{
+  width: 550px;
+}
+
+.shell-log
+{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.shell-out
+{
+  margin-top: 10px;
+  font-size: 20px;
+  color: #00ff40;
+}
+.shell-in
+{
+  margin-top: 10px;
+  color: #00ff40;
+  position: relative;
+  height: 30px;
+  font-size: 16px;
+}
+.shell-in input[type=text]
+{
+  background: transparent;
+  color: #00ff40;
+  border: none;
+  resize: none;
+  outline: none;
+  width: 90%;
+  right: 0;
+  position: absolute;
+  font-size: 16px;
+}
+
+
+
+
+#img
+{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+a.box:link
+{
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a.box:visited
+{
+  color: #bfbfbf;
+  background-color: transparent;
+  text-decoration: none;
+}	
+a.box:hover
+{
+  color: #bfbfbf;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a.box:active
+{
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a.contact
+{
+  color: #1e1e1e
+}
+a.contact:link
+{
+  text-decoration: none;
+}
+a.contact:hover
+{
+  color: #969696
+}
+p.contact
+{
+  color: #1e1e1e
+}
